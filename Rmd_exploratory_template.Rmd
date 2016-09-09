@@ -43,6 +43,14 @@ library(rpart)
 
 ```
 
+# Explore 
+
+```{r explore}
+# Look at summary statistics and quick exploratory visuals
+# Use str, summary, hist, qplot
+
+```
+
 # Clean
 
 ```{r clean}
@@ -58,10 +66,10 @@ library(rpart)
 
 ```
 
-# Explore
+# Explore Again
 
-```{r explore}
-# Look at summary statistics and quick exploratory visuals
+```{r explore_again}
+# Test the transformations have worked
 
 ```
 
