@@ -25,15 +25,6 @@ library(lubridate)
 
 install.packages("ggplot2", repos="http://cran.rstudio.com/")
 library(ggplot2)
-
-install.packages("rattle", repos="http://cran.rstudio.com/")
-library(rattle) 
-install.packages("rpart.plot", repos="http://cran.rstudio.com/")
-library(rpart.plot)
-install.packages("RColorBrewer",repos="http://cran.rstudio.com/")
-library(RColorBrewer) 
-library(rpart) 
-
 ```
 
 # Load
