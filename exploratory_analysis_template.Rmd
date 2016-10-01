@@ -6,6 +6,8 @@ output: html_document
 ---
 This template is a starting point for exploratory data analysis.  
 
+Test text to see if gitHub sync is working.  
+
 # Setup
 
 ```{r setup}
