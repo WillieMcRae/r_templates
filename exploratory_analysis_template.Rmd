@@ -14,25 +14,22 @@ Test text to see if gitHub sync is working.
 # Set Working Directory
 setwd()
 # Install and load packages
-install.packages("plyr", repos="http://cran.rstudio.com/")
-library(plyr)
-install.packages("dplyr", repos="http://cran.rstudio.com/")
-library(dplyr)
-install.packages("stringr", repos="http://cran.rstudio.com/")
-library(stringr)
-install.packages("tidyr", repos="http://cran.rstudio.com/")
-library(tidyr)
-install.packages("lubridate", repos="http://cran.rstudio.com/")
-library(lubridate)
+install.packages("tidyverse", repos="http://cran.rstudio.com/")
+library(tidyverse)
 
-install.packages("ggplot2", repos="http://cran.rstudio.com/")
-library(ggplot2)
 ```
 
 # Load
 
 ```{r load}
 # Load datasets
+
+```
+
+# Explore 
+
+```{r explore}
+# Look at summary statistics and quick exploratory visuals
 
 ```
 
@@ -51,9 +48,9 @@ library(ggplot2)
 
 ```
 
-# Explore
+# Explore again
 
-```{r explore}
+```{r explore_again}
 # Look at summary statistics and quick exploratory visuals
 
 ```
