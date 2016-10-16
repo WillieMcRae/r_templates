@@ -6,8 +6,6 @@ output: html_document
 ---
 This template is a starting point for exploratory data analysis.  
 
-Test text to see if gitHub sync is working.  
-
 # Setup
 
 ```{r setup}
@@ -22,7 +20,15 @@ library(tidyverse)
 # Load
 
 ```{r load}
-# Load datasets
+# Load data
+
+```
+
+# First Explore
+ 
+```{r explore_1}
+# A meta-view of the data, views of classifications of variables etc. 
+
 
 ```
 
@@ -32,6 +38,10 @@ library(tidyverse)
 # Look at summary statistics and quick exploratory visuals
 
 ```
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 
 # Clean
 
