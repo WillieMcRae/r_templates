@@ -2,67 +2,87 @@
 title: "Exploratory Template"
 author: "Willie McRae"
 date: "2016"
-output: html_document
+output: 
+  html_document: 
+    toc: yes
 ---
+The goals are;
+
+1. To deeply understand a single data file 
+2. Surface high level relationships between variables   
+3. Prepare thoughts and approaches for pre-processing and modeling 
+
 ```{r setup, include = FALSE}
 # Set Working Directory
-setwd()
+
 # Install and load packages
 install.packages("tidyverse", repos="http://cran.rstudio.com/")
 library(tidyverse)
 
 ```
 
-# Load
+This is an analysis of the () data set from (). 
 
-This is an analysis of the () data set from ().  
+The purpose of the investigation is to...  
 
-```{r load}
+```{r load, include = FALSE}
 # Load data
 
 ```
 
-# First Explore
+# Raw - First Explore
+What is the structure and characteristics of the data in raw form?  
 
-What is the structure and characteristics of the data?  
-
-```{r explore_1}
+```{r raw_explore_1}
 # A meta-view of the data, views of classifications of variables etc
-
 
 ```
 
-# Second Explore 
+# Raw - Second Explore 
+What are the relationships between variables in raw form?  
 
-```{r explore_2}
+```{r raw_explore_2}
 # Look at summary statistics and quick exploratory visuals
 
 ```
 
 # Clean
-
+What transformations of variables will improve the data?
 ```{r clean}
-# Transform each data set into a common format with correct column types
+# Names (consistent)
+
+# Classes (Date, Number, Character, Factor)
+
 
 ```
 
 # Tidy
-
+What transformations of structure will improve the data?
 ```{r tidy}
 # Prepare data for visual exploration and summaries, using principles of tidy data; 
 # Each row is an observation, each column is a variable
 
 ```
 
-# Final Explore
 
-```{r explore_3}
+# Transformed - First Explore
+What is the structure and characteristics of the data in transformed form? 
+```{r transformed_explore_1}
+# Refreshed meta-view of the data, views of classifications of variables etc
+
+```
+
+
+# Transformed - Second Explore
+What are the relationships between variables in raw form?
+```{r transformed_explore_2}
 # How do things look now the data has been manipulated?
 
 ```
 
-# Visualize
 
+# Visualize
+Plots to highlight or uncover relationships.  
 ```{r visualize}
 # Create plots
 
@@ -70,7 +90,7 @@ What is the structure and characteristics of the data?
 
 
 # Observations and recommendations
-
+Thoughts on pre-processing, possible joins to other data sets, modeling approaches etc.  
 ```{r observations}
 # What next?
 
