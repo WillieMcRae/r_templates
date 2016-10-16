@@ -4,11 +4,7 @@ author: "Willie McRae"
 date: "2016"
 output: html_document
 ---
-This template is a starting point for exploratory data analysis.  
-
-# Setup
-
-```{r setup}
+```{r setup, include = FALSE}
 # Set Working Directory
 setwd()
 # Install and load packages
@@ -19,29 +15,29 @@ library(tidyverse)
 
 # Load
 
+This is an analysis of the () data set from ().  
+
 ```{r load}
 # Load data
 
 ```
 
 # First Explore
- 
+
+What is the structure and characteristics of the data?  
+
 ```{r explore_1}
-# A meta-view of the data, views of classifications of variables etc. 
+# A meta-view of the data, views of classifications of variables etc
 
 
 ```
 
-# Explore 
+# Second Explore 
 
-```{r explore}
+```{r explore_2}
 # Look at summary statistics and quick exploratory visuals
 
 ```
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
 
 # Clean
 
@@ -58,10 +54,10 @@ library(tidyverse)
 
 ```
 
-# Explore again
+# Final Explore
 
-```{r explore_again}
-# Look at summary statistics and quick exploratory visuals
+```{r explore_3}
+# How do things look now the data has been manipulated?
 
 ```
 
@@ -71,3 +67,13 @@ library(tidyverse)
 # Create plots
 
 ```
+
+
+# Observations and recommendations
+
+```{r observations}
+# What next?
+
+
+```
+
