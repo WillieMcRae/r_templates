@@ -33,8 +33,30 @@ The purpose of the investigation is to...
 # Raw - First Explore
 What is the structure and characteristics of the data in raw form?  
 
+I like to visualise this.  
+
 ```{r raw_explore_1}
 # A meta-view of the data, views of classifications of variables etc
+
+data_raw <- x # replace x with name of data frame to be analysed
+
+### Class and NA
+names <- names(data_raw)
+class <- unlist(lapply(data_raw, class))
+percent_na <- round(sapply(data_raw, function(x)  sum(is.na(x)) / length(x)), digits = 3)
+data_raw <- data.frame(names) # Create data frame to show the meta-data
+data_raw$class <- as.factor(class)
+data_raw$percent_na <- percent_na 
+
+class(data_raw$class)
+
+### Visual of the raw data by class and % NA
+ggplot(data = data_raw, aes(x = names, fill = percent_na)) +
+  geom_bar() +
+  coord_flip() +
+  theme_a +
+  labs(title = "Raw data by class and % NA", x = "Variable") +
+  facet_wrap(~ class, nrow = 1)
 
 ```
 
@@ -69,6 +91,27 @@ What transformations of structure will improve the data?
 What is the structure and characteristics of the data in transformed form? 
 ```{r transformed_explore_1}
 # Refreshed meta-view of the data, views of classifications of variables etc
+
+data_clean <- x # replace x with name of data frame to be analysed (the cleaned data frame)
+
+### Class and NA
+names <- names(data_clean)
+class <- unlist(lapply(data_clean, class))
+percent_na <- round(sapply(data_clean, function(x)  sum(is.na(x)) / length(x)), digits = 3)
+data_clean <- data.frame(names) # Create data frame to show the meta-data
+data_clean$class <- as.factor(class)
+data_clean$percent_na <- percent_na 
+
+class(data_clean$class)
+
+### Visual of the raw data by class and % NA
+ggplot(data = data_raw, aes(x = names, fill = percent_na)) +
+  geom_bar() +
+  coord_flip() +
+  theme_a +
+  labs(title = "Clean data by class and % NA", x = "Variable") +
+  facet_wrap(~ class, nrow = 1)
+
 
 ```
 
