@@ -19,6 +19,19 @@ The goals are;
 install.packages("tidyverse", repos="http://cran.rstudio.com/")
 library(tidyverse)
 
+
+install.packages("GGally", repos="http://cran.rstudio.com/")
+library(GGally)
+
+# Plot theme
+theme_a <- theme(panel.background = element_blank(),
+                 legend.background = element_blank(),
+                 legend.key = element_blank(),
+                 panel.grid = element_blank(),
+                 axis.text = element_text(colour = "black"),
+                 axis.line.x = element_line(colour = "black", size = 0.5),
+                 axis.line.y = element_line(colour = "black", size = 0.5))
+
 ```
 
 This is an analysis of the () data set from (). 
@@ -65,6 +78,10 @@ What are the relationships between variables in raw form?
 
 ```{r raw_explore_2}
 # Look at summary statistics and quick exploratory visuals
+
+# Creat a correlation matrix
+
+# Use GGally
 
 ```
 
