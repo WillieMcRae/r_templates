@@ -13,6 +13,8 @@ The goals are;
 3. Prepare thoughts and approaches for pre-processing and modeling 
 
 ```{r setup, include = FALSE}
+# Find TODO Ctrl+Shift+F, search for regex ^\s*# TODO
+
 # Set Working Directory
 
 # Install and load packages
