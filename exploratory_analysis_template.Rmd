@@ -81,7 +81,10 @@ What are the relationships between variables in raw form?
 ```{r raw_explore_2}
 # Look at summary statistics and quick exploratory visuals
 
-# Creat a correlation matrix
+# Create a correlation matrix
+
+ggcorr(d, method = c("pairwise", "pearson"), nbreaks = 5, hjust = 0.75, layout.exp = 2) +
+  labs(title = "Correlation matrix of raw data")
 
 # Use GGally
 
@@ -94,6 +97,14 @@ What transformations of variables will improve the data?
 
 # Classes (Date, Number, Character, Factor)
 
+num_vars <- c("")
+d[c(num_vars)] <- lapply(d[c(num_vars)], as.factor)
+
+date_vars <- c("")
+d[c(date_vars)] <- lapply(d[c(date_vars)], as.Date, format = "%d/%m/%Y") #Check format!!
+
+factor_vars <- c("")
+d[c(factor_vars)] <- lapply(d[c(factor_vars)], as.factor)
 
 ```
 
