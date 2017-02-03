@@ -150,6 +150,14 @@ ggplot(data = data_raw, aes(x = names, fill = percent_na)) +
 What are the relationships between variables in raw form?
 ```{r transformed_explore_2}
 # How do things look now the data has been manipulated?
+names(d)
+# Proportional tables
+
+# Conditional tables
+
+# Distribution of single variables
+
+
 
 ```
 
