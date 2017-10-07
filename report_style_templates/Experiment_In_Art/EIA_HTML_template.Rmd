@@ -1,0 +1,32 @@
+---
+title: "Experiment In Art HTML Template"
+author: "Willie McRae"
+date: "7th October 2017"
+output: 
+  html_document:
+    css: EIA_styles.css
+    highlight: monochrome
+    toc: yes
+    toc_float: yes
+---
+
+<img src="EIA_logo_notext.jpg" style="position:absolute;top:20px;right:0px; width:150px; height=150px" />
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)  
+
+# Set up notes
+
+## Check logo size
+
+```
+## The Experiment
+
+*Insert awesome text here*
+
+## The Results 
+
+*Insert compelling insights here*
+
+  
