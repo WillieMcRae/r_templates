@@ -1,4 +1,6 @@
 # R_templates
 
-1. Exploratory Analysis 
+## Exploratory Data Analysis 
+
+## visual assets 
 
