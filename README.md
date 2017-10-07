@@ -1,6 +1,6 @@
 # R_templates
 
-## Exploratory Data Analysis 
+## EDA_template (for exploratory data analysis) 
 
-## visual assets 
+## report_style_templates
 

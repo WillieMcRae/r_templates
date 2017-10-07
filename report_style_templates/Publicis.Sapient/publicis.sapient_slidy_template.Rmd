@@ -1,0 +1,36 @@
+---
+title: "Publicis.Sapient Slides Template"
+author: "Will Bidstrup, Capacity Planning, EMEA"
+date: "7th October 2017"
+output: 
+  slidy_presentation: 
+    css: P.S_styles.css
+    logo: P.S_Logo.jpg
+    biglogo: P.S_Logo.jpg
+    footer: "CONFIDENTIAL"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)  
+
+```
+
+## Summary
+<img src="PS_Logo.jpg" style="position:absolute;top:0px;right:0px; width:150px; height=100px" />
+
+
+*Insert awesome text here*
+
+## Detail 
+<img src="PS_Logo.jpg" style="position:absolute;top:0px;right:0px; width:150px; height=100px" />
+
+
+*Insert compelling insights here*
+
+## Further thoughts
+<img src="PS_Logo.jpg" style="position:absolute;top:0px;right:0px; width:150px; height=100px" />
+
+
+*Insert keen questions and suggested next steps here*  
+
+Need to get corporate colour palette and fonts to incorporate into this.   
