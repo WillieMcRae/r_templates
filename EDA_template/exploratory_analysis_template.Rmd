@@ -1,16 +1,25 @@
 ---
 title: "Exploratory Template"
 author: "Willie McRae"
-date: "2016"
+date: "2017"
 output: 
   html_document: 
     toc: yes
 ---
-The goals are;
 
-1. To deeply understand a single data file 
-2. Surface high level relationships between variables   
-3. Prepare thoughts and approaches for pre-processing and modeling 
+1. Explore dataframe and understand raw structure and contents 
+2. Univariate analysis  
+2. Bivariate relationships     
+3. Prepare thoughts for cleaning, tidying, and pre-processing 
+
+
+```{r}
+# TODO - add some tables
+# TODO - remove the sections on tidying - this should come after EDA
+# TODO - replace sapply with purr functions
+# TODO - include pwalk histograms
+```
+
 
 ```{r setup, include = FALSE}
 # Find TODO Ctrl+Shift+F, search for regex ^\s*# TODO
@@ -36,7 +45,7 @@ theme_a <- theme(panel.background = element_blank(),
 
 ```
 
-This is an analysis of the () data set from (). 
+This is an exploration of the () data set from (). 
 
 The purpose of the investigation is to...  
 
